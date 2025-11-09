@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css" >
+    <style>
+        h1{color:black}
+        p{color:orangered}
+        body{background-color: skyblue;}
+        .m{color:blue;}
+        .about{background-color: chartreuse;}
+        .skills{background-color: rgb(28, 110, 110);}
+        .projects{background-color: bisque;}
+        .contact{background-color: brown;}
+        .abt{color:darkblue}
+        .sk{color:blueviolet}
+        .sk1{color:darkred}
+        .pn{color:crimson}
+        .pro{color:coral}
+        .con{color:darkslategrey}
+        .sub{background-color: green;}
+        .login,.signup{background-color: darkorange;}
+        .log{color:brown}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="m">WELCOME TO MY PORTFOLIO</h1>
+        <button class="about">About</button>
+        <button class="skills">My skills</button>
+        <button class="projects">My projects</button>
+        <button class="contact">Contact</button>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="abt">ABOUT</h1>
+            <p>My name is <em>T.Ashwan yadav</em> currently pursuing my btech</p>
+            <p>in <i>marri laxman reddy institute of technology and management</i></p>
+            <img src="ashwan.jpg">
+        </section>
+        <section>
+            <h1 class="sk">MY SKILLS</h1>
+            <ol>
+                <li class="sk1">Python</li>
+                <li class="sk1">HTML</li>
+                <li class="sk1">C&C++</li>
+                <li class="sk1">Data Structures</li>
+            </ol>
+        </section>
+        <section>
+            <h1 class="pro">MY PROJECTS</h1>
+            <table bgcolor="black">
+                <tr bgcolor="darkgrey">
+                    <th>project name</th>
+                    <th>Application</th>
+                </tr>
+                <tr bgcolor="lightgrey" align="centre">
+                    <td class="pn">Agro smart</td>
+                    <td class="pn">Using of AI in smart farming</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h1 class="con">CONTACT</h1>
+        </section>
+    </main>
+    <form actions="">
+        <label for="name">Name:</label>
+        <input type="text">
+        <br>
+         <label for="email">Email:</label>
+        <input type="email">
+        <br>
+        <b>Choose your Gender</b>
+        <input type="radio" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="Bio">Bio(upto 200 characters):</label>
+        <input for="text">
+        <br>
+        <button class="sub">submit</button>
+        <br>
+        <br>
+        <h1 class="log">Please login in to our page</h1>
+        <button class="login"><a href="login.html">login</a></button>
+        <br>
+        <h1>dont have an account</h1>
+        <h2>please sign up to create your account</h2>
+        
+        <button class="signup"><a href="signup.html">Signup</a></button>
+        <br>
+        <br>
+
+        <button><a href="https://www.google.com/">Google</a></button>
+
+    </form>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
